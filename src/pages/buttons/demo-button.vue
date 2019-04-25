@@ -10,14 +10,13 @@
 
 <script>
     import {
-        Button,
-        ButtonGroup
+        Button
     } from 'ant-design-vue'
     export default {
         name: 'DemoButton',
         components: {
-            AButton:Button,
-            AButtonGroup:ButtonGroup
+            [Button.name]:Button,
+            [Button.Group.name]:Button.Group
         }
     }
 </script>

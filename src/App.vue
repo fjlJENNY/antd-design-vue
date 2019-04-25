@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <demo-button></demo-button>
-  </div>
+<div id="app">
+  <demo-button></demo-button>
+</div>
 </template>
 
 <script>
@@ -9,6 +9,10 @@
   import DemoButton  from './pages/buttons/demo-button.vue'
   export default {
     name: 'app',
+    data(){
+      return {
+      }
+    },
     components: {
       HelloWorld,
       DemoButton
